@@ -11,6 +11,13 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+strong{ 
+  color:#f1c40f;
+  font-weight: 400;
+}
+
+
+
 p {
   margin-bottom: 0.8rem;
 }
@@ -30,7 +37,7 @@ a {
 /* * vp + header */
 
 .vp-container {
-  background-color: green;
+ 
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -63,7 +70,13 @@ header a {
   margin-right: 0.5rem;
 }
 .vp {
+  
   flex: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background:url(../images/frame.jpg) center center/cover;
 }
 header ul{
 display: flex;
@@ -76,4 +89,19 @@ header ul li{
 header ul li a:hover{
   color:#f1c40f; ;
  
+}
+.vp-content{
+  max-width: 800px;
+  text-align: center;
+  color: white;
+}
+.vp-content h1 {
+  font-size: 3.2rem;
+  margin-bottom: 2rem;
+}
+.vp-content p {
+  font-size: 1.8rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 2rem;
 }
