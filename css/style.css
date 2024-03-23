@@ -211,3 +211,25 @@ header ul li a:hover {
   margin-bottom: 0.5rem;
 
 }
+
+.contact{
+  padding: 10rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact-form{
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.contact-form input{
+  background: #333;
+  border: 0;
+  border-bottom: 1px solid #555;
+  padding: 1rem;
+  font-size: 1.5rem;
+
+}
