@@ -173,3 +173,41 @@ header ul li a:hover {
   letter-spacing: 0.5px; 
   font-size: 1.3rem;
 }
+
+.testimonials{  
+    padding: 5rem 1rem;
+   
+
+}
+.testimonials-content{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.testimonials-elem{
+  flex: 1;
+  background: white;
+  border-radius: 5px;
+  padding: 2rem;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  margin-bottom: 1rem;
+  justify-content: space-between;
+
+}
+.testimonials-elem-text{
+  padding: 0 2rem;
+
+}
+.testimonials-elem-profil img{
+  width: 50px;
+  border-radius: 50px;
+
+}
+.testimonials-elem-profil p{
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+
+}
