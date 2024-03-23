@@ -78,6 +78,7 @@ header a {
   justify-content: center;
   align-items: center;
   background: url(../images/frame.jpg) center center/cover;
+  min-height: 100vh;
 }
 header ul {
   display: flex;
@@ -139,6 +140,36 @@ header ul li a:hover {
 .offer-separator{
   height: 2px;
   width: 50px;
-  margin: auto;
+  margin: 1rem  auto;
   background-color: #333;
+}
+
+.who{
+  display: flex;
+  flex-flow: row nowrap;
+}
+.who-content-img img{
+  width: 100%;
+}
+
+.who-content-img{
+  flex: 1;
+}
+
+.who-content-text{
+  flex: 1;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bg-dark{
+  background: #333;
+  color: white;
+}
+
+.who-content-text p{
+  letter-spacing: 0.5px; 
+  font-size: 1.3rem;
 }
