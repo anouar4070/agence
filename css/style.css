@@ -12,7 +12,7 @@ body {
   background-color: #eee;
 }
 
-ul{
+ul {
   list-style: none;
 }
 
@@ -114,49 +114,49 @@ header ul li a:hover {
   display: block;
   margin: auto;
 }
-.offer-list{
+.offer-list {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
 }
-.offer-elem{
+.offer-elem {
   background-color: white;
   margin: 1rem;
   flex: 1;
 }
 
-.title{
+.title {
   font-size: 2rem;
   font-weight: 300;
 }
-.offer-elm-img{
+.offer-elm-img {
   width: 100%;
 }
 
-.offer-elem-text{
+.offer-elem-text {
   padding: 2rem;
   text-align: center;
 }
-.offer-separator{
+.offer-separator {
   height: 2px;
   width: 50px;
-  margin: 1rem  auto;
+  margin: 1rem auto;
   background-color: #333;
 }
 
-.who{
+.who {
   display: flex;
   flex-flow: row nowrap;
 }
-.who-content-img img{
+.who-content-img img {
   width: 100%;
 }
 
-.who-content-img{
+.who-content-img {
   flex: 1;
 }
 
-.who-content-text{
+.who-content-text {
   flex: 1;
   padding: 4rem;
   display: flex;
@@ -164,28 +164,25 @@ header ul li a:hover {
   justify-content: center;
 }
 
-.bg-dark{
+.bg-dark {
   background: #333;
   color: white;
 }
 
-.who-content-text p{
-  letter-spacing: 0.5px; 
+.who-content-text p {
+  letter-spacing: 0.5px;
   font-size: 1.3rem;
 }
 
-.testimonials{  
-    padding: 5rem 1rem;
-   
-
+.testimonials {
+  padding: 5rem 1rem;
 }
-.testimonials-content{
+.testimonials-content {
   display: flex;
   flex-direction: column;
-
 }
 
-.testimonials-elem{
+.testimonials-elem {
   flex: 1;
   background: white;
   border-radius: 5px;
@@ -195,41 +192,67 @@ header ul li a:hover {
   align-items: center;
   margin-bottom: 1rem;
   justify-content: space-between;
-
 }
-.testimonials-elem-text{
+.testimonials-elem-text {
   padding: 0 2rem;
-
 }
-.testimonials-elem-profil img{
+.testimonials-elem-profil img {
   width: 50px;
   border-radius: 50px;
-
 }
-.testimonials-elem-profil p{
+.testimonials-elem-profil p {
   font-weight: 700;
   margin-bottom: 0.5rem;
-
 }
 
-.contact{
+.contact {
   padding: 10rem 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.contact-form{
+.contact-form {
   max-width: 600px;
   display: flex;
   flex-direction: column;
   width: 100%;
 }
 
-.contact-form input{
+.contact-form input {
   background: #333;
   border: 0;
   border-bottom: 1px solid #555;
   padding: 1rem;
   font-size: 1.5rem;
+  outline: none;
+  margin: 1rem;
+  color: white;
+}
 
+.contact-form button{
+  display: block;
+  margin: 3rem auto;
+  padding: 1rem 2rem;
+  border: 0;
+  border-radius: 30px;
+  background:#f1c40f;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.contact-form button:hover{
+  background: red;
+}
+footer{
+  background: #444;
+padding: 5rem 1rem;
+color: white;
+text-align: center;
+}
+footer p {
+  margin-bottom: 0;
+  font-size: 1.2rem;
+  line-height: 2rem;
 }
